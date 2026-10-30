@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Address and The Poem</title>
+  </head>
+  <body>
+    <!-- Part 1: Postal Address using <br> correctly for line breaks -->
+
+    <h1>School Address</h1>
+
+    <p>
+      Tekhub Nigeria Limited,<br />
+      Soft Training Institute in Awka,<br />
+      Located in Grace and Faith tower<br />
+      Awka, Anambra State.
+    </p>
+
+    <!-- Thematic break between the two parts representing a change of topic -->
+    <hr />
+    <!-- Part 2: Short original poem (at least 8 lines, two verses, each verse as its own paragraph) -->
+
+    <h1>Code Creation</h1>
+    <p>
+      The glowing screen reflects the night,<br />
+      As fingers dance upon the keys,<br />
+      We shape the dark with lines of light,<br />
+      And build new worlds with rhythmic ease.
+    </p>
+
+    <p>
+      A bug appears to halt the flow,<br />
+      We search the logic line by line,<br />
+      With every fix the answers grow,<br />
+      Until the steady systems shine.
+    </p>
+
+    <!--Part 3: Comment explaining why using <br> to add space between paragraphs is wrong -->
+    <!-- 
+        WHY USING <br> TO ADD SPACE BETWEEN PARAGRAPHS IS WRONG:
+        1. Semantic Meaning: The <br> tag only represents a line break within the same content block (like an address or poem line), whereas <p> defines an independent paragraph.
+        2. Accessibility: Screen readers rely on <p> tags to understand text blocks. Using multiple <br> tags tricks assistive tech into thinking it's all one messy sentence fragment.
+        3. Separation of Concerns: Styling and spacing should be handled by CSS, while HTML should focus entirely on structure and meaning.-->
+  </body>
+</html>
